@@ -5,8 +5,13 @@ Assistance from a Bowling Examplar video from the Makers course.
 - Initialised project, created package.json file
 - installed Jest testing for this project
 - gitignore file already created to ignore .DS_Store & node_modules
-- created first test to test for a first roll of a frame
-- test failing with expected outcome of 'Frame is not defined'
+
+- Created first test to test for a first roll of a frame
+- Test failing with expected outcome of 'Frame is not defined'
+- Continuing to check git status & do regular adds/commits/pushes to gitHub
+
+- Created Frame class with simple addRoll function being expected to be returned in frame.js file. made sure class can be exported and frame.js file is required in test file. Initial test passing. 
+
 
 Bowling Challenge
 =================
