@@ -12,6 +12,9 @@ Assistance from a Bowling Examplar video from the Makers course.
 
 - Created Frame class with simple addRoll function being expected to be returned in frame.js file. made sure class can be exported and frame.js file is required in test file. Initial test passing. 
 
+- Added test for multiple rolls.
+- Added expectation to receive instances of rolls for each frame to equal 2
+- Created instances of rolls within Frame class using constructor
 
 Bowling Challenge
 =================

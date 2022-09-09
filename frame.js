@@ -1,6 +1,10 @@
 class Frame {
-  addRoll() {
-    
+  constructor() {
+    this.rolls = [];
+  }
+
+  addRoll(pins) {
+    this.rolls.push(pins);
   }
 }
 

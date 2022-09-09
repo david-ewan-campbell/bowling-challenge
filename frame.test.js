@@ -11,6 +11,7 @@ describe("Frame", () => {
       const frame = new Frame();
       frame.addRoll(5);
       frame.addRoll(4);
+      expect(frame.rolls.length).toEqual(2);
     });
   });
 });
