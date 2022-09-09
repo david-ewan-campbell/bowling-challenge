@@ -1,6 +1,13 @@
 Revisiting Makers Bowling Challenge to start getting gitHub repo lights going green again. Originally did the Bowling scorecard challenge using Ruby. Instead using Javascript to practice a simple project set up and reconsolidating knowledge of using TDD with Jest and OOPs. 
 Assistance from a Bowling Examplar video from the Makers course.
 
+- Already forked and cloned the original repo
+- Initialised project, created package.json file
+- installed Jest testing for this project
+- gitignore file already created to ignore .DS_Store & node_modules
+- created first test to test for a first roll of a frame
+- test failing with expected outcome of 'Frame is not defined'
+
 Bowling Challenge
 =================
 
