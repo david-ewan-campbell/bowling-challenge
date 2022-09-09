@@ -1,3 +1,5 @@
+Revisiting Makers Bowling Challenge to start getting gitHub repo lights going green again. Originally did the Bowling scorecard challenge using Ruby. Instead using Javascript to practice a simple project set up and reconsolidating knowledge of using TDD with Jest and OOPs. 
+Assistance from a Bowling Examplar video from the Makers course.
 
 Bowling Challenge
 =================
