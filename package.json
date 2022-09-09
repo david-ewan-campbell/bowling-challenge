@@ -1,0 +1,26 @@
+{
+  "name": "bowling-challenge",
+  "version": "1.0.0",
+  "description": "Revisiting Makers Bowling Challenge to start getting gitHub repo lights going green again. Originally did the Bowling scorecard challenge using Ruby. Instead using Javascript to practice a simple project set up and reconsolidating knowledge of using TDD with Jest and OOPs.  Assistance from a Bowling Examplar video from the Makers course.",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/david-ewan-campbell/bowling-challenge.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/david-ewan-campbell/bowling-challenge/issues"
+  },
+  "homepage": "https://github.com/david-ewan-campbell/bowling-challenge#readme",
+  "dependencies": {
+    "jest": "^29.0.2"
+  }
+}
