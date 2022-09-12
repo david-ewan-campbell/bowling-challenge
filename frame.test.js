@@ -20,6 +20,13 @@ describe("Frame", () => {
       const frame = new Frame();
       frame.addRoll(5);
       expect(frame.score()).toEqual(5);
-    })
-  })
+    });
+
+    it('can score an complete frame', () => {
+      const frame = new Frame();
+      frame.addRoll(5);
+      frame.addRoll(4);
+      expect(frame.score()).toEqual(9);
+    });
+  });
 });

@@ -18,9 +18,11 @@ Assistance from a Bowling Examplar video from the Makers course.
 
 - Add test within frame.test.js file to check for .score within each frame
 
-- Installed 'lodash' with useful methods to keep track of score - instead of a 'for' loop, using lodash 'sum' method?
+- Installed 'lodash' with useful methods to keep track of score - instead of a 'for' loop, using lodash 'sum' method to add rolls together
 - Added score function to frame.js file/Frame class
-- Calling lodash package at top of frame.js file
+- Calling 'lodash' package at top of frame.js file
+
+- Added test for a complete frame with 2 rolls of 4 & 5 with the expectation of that frame equalling 9 - test passes.
 
 Bowling Challenge
 =================
