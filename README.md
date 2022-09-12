@@ -16,6 +16,12 @@ Assistance from a Bowling Examplar video from the Makers course.
 - Added expectation to receive instances of rolls for each frame to equal 2
 - Created instances of rolls within Frame class using constructor
 
+- Add test within frame.test.js file to check for .score within each frame
+
+- Installed 'lodash' with useful methods to keep track of score - instead of a 'for' loop, using lodash 'sum' method?
+- Added score function to frame.js file/Frame class
+- Calling lodash package at top of frame.js file
+
 Bowling Challenge
 =================
 

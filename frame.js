@@ -1,3 +1,5 @@
+const { sum } = require("lodash");
+
 class Frame {
   constructor() {
     this.rolls = [];
@@ -5,6 +7,10 @@ class Frame {
 
   addRoll(pins) {
     this.rolls.push(pins);
+  }
+
+  score() {
+    return sum(this.rolls);
   }
 }
 
