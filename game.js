@@ -6,12 +6,16 @@ class Game {
   }
 
   addRoll(pins) {
-    let currentFrame = this.frames[this.frames.length -1];
+    let currentFrame = this.#getCurrentFrame();
     if (currentFrame.rolls.length == 2) {
       this.frames.push(new Frame());
-      currentFrame = this.frames[this.frames.length -1];
+      currentFrame = this.#getCurrentFrame();
     }
     currentFrame.addRoll(pins);
+  }
+
+  #getCurrentFrame() {
+    return this.frames[this.frames.length -1];
   }
 }
 
