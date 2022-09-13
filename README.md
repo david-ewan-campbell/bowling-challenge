@@ -32,6 +32,7 @@ Assistance from a Bowling Examplar video from the Makers course.
 - Tests added to check if spares are false & true - spares function added to return a spare is true if scored and false if not.
 
 - Extra test added to check if a strike is scored after a spare roll (to return the opposite of a strike game returning true)
+- Spare function can respond with false if a strike is scored.
 
 Bowling Challenge
 =================

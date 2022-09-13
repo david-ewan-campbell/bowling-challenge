@@ -18,6 +18,7 @@ class Frame {
   }
 
   spare() {
+    if (this.strike()) return false;
     return this.rolls[0] + this.rolls[1] === 10;
   }
 }
