@@ -39,6 +39,12 @@ Assistance from a Bowling Examplar video from the Makers course.
 - Extra test added to check if a strike is scored after a spare roll (to return the opposite of a strike game returning true)
 - Spare function can respond with false if a strike is scored.
 
+- Game test created to check for rolls
+- Simple Game class framework created - test passing.
+
+- Moving onto more complex function of adding each frame as they're played with a length of 2 rolls per frame. Even with referring to a coding example it is a difficult process but gleaning useful reminders such as not to define a constant but use 'let' for a variable whose value needs to change, such as the current Frame.
+- Added test coverage with npx jest --coverage to get more visibility on what is happening with each test
+
 Bowling Challenge
 =================
 
