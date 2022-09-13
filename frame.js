@@ -12,6 +12,10 @@ class Frame {
   score() {
     return sum(this.rolls);
   }
+
+  strike() {
+    return false;
+  }
 }
 
 module.exports = Frame;

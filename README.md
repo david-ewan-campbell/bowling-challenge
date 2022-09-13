@@ -22,7 +22,12 @@ Assistance from a Bowling Examplar video from the Makers course.
 - Added score function to frame.js file/Frame class
 - Calling 'lodash' package at top of frame.js file
 
-- Added test for a complete frame with 2 rolls of 4 & 5 with the expectation of that frame equalling 9 - test passes.
+- Added test within .score test block, for a complete frame with 2 rolls of 4 & 5 with the expectation of that frame equalling 9 - test passes
+
+- Added test for checking if no strike (if 'strike' is false) - fails as strike function not defined
+- Added strike function that returns false - test passing
+
+
 
 Bowling Challenge
 =================
