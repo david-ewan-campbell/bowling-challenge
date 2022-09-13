@@ -27,7 +27,7 @@ Assistance from a Bowling Examplar video from the Makers course.
 - Added test for checking if no strike (if 'strike' is false) - fails as strike function not defined
 - Added strike function that returns false - test passing
 
-
+- Added test to check if strike is rolled. Strike function had 'false' return hardcoded for previous test, so changed to an instance of a first roll returning a strike, so true is returned if a strike, false if a strike not returned.
 
 Bowling Challenge
 =================

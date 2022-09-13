@@ -14,7 +14,7 @@ class Frame {
   }
 
   strike() {
-    return false;
+    return this.rolls[0] === 10;
   }
 }
 

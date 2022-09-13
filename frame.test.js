@@ -37,5 +37,11 @@ describe("Frame", () => {
       frame.addRoll(4);
       expect(frame.strike()).toEqual(false);
     });
+
+    it("responds true when a strike is scored", () => {
+      const frame = new Frame();
+      frame.addRoll(10);
+      expect(frame.strike()).toEqual(true);
+    });
   });
 });
