@@ -47,6 +47,8 @@ Assistance from a Bowling Examplar video from the Makers course.
 
 - Added method to get current frame so code is not repeating itself (DRY)
 
+- Refactored code to add useful Javascript 'get' method used to call #currentFrame and to focuse on keeping code DRY
+
 Bowling Challenge
 =================
 

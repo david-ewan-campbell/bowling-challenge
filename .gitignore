@@ -1,3 +1,11 @@
 /**/.DS_Store
-node_modules
-coverage
+
+/node_modules
+
+/reports/*
+
+/coverage
+/coverage/clover.xml
+/coverage/lcov-report/frame.js.html
+/coverage/lcov-report/game.js.html
+/coverage/lcov-report/index.html
