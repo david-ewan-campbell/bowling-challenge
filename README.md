@@ -3,8 +3,13 @@ Assistance from a Bowling Examplar video from the Makers course.
 
 - Already forked and cloned the original repo
 - Initialised project, created package.json file
-- installed Jest testing for this project
-- gitignore file already created to ignore .DS_Store & node_modules
+- Installed Jest testing for this project
+- .gitignore file already created to ignore .DS_Store & node_modules
+
+- Looked at how bowling scores work and decide the classes/functions to be extrapolated from that.
+- Need a 'Frame' class where instances of rolls are created and the result of those rolls are the following functions - addRolls, a score function (to keep a running total) and the functions to check for strikes and spares within the game, with spares being able to be carried over to the next roll
+
+- Need a Game class to keep track of the Frames as they are played, with the ability to keep score of the result of each instance of the Frame class.
 
 - Created first test to test for a first roll of a frame
 - Test failing with expected outcome of 'Frame is not defined'

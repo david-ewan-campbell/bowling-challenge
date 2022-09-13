@@ -1,7 +1,7 @@
 const Frame = require("./frame");
 
 describe("Frame", () => {
-  describe('.addRoll', () => {
+  describe(".addRoll", () => {
     it("Can receive a roll", () => {
       const frame = new Frame();
       frame.addRoll(5);
