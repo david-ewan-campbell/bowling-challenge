@@ -29,6 +29,8 @@ Assistance from a Bowling Examplar video from the Makers course.
 
 - Added test to check if strike is rolled. Strike function had 'false' return hardcoded for previous test, so changed to an instance of a first roll returning a strike, so true is returned if a strike, false if a strike not returned.
 
+- Tests added to check if spares are false & true - spares function added to return a spare is true if scored and false if not.
+
 Bowling Challenge
 =================
 

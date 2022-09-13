@@ -44,4 +44,20 @@ describe("Frame", () => {
       expect(frame.strike()).toEqual(true);
     });
   });
+
+  describe("spare", () => {
+    it("responds false when spare is not scored", () => {
+      const frame = new Frame();
+      frame.addRoll(5);
+      frame.addRoll(4);
+      expect(frame.spare()).toEqual(false);
+    });
+
+    it("responds true when a spare is scored", () => {
+      const frame = new Frame();
+      frame.addRoll(6);
+      frame.addRoll(4);
+      expect(frame.spare()).toEqual(true);
+    });
+  });
 });
