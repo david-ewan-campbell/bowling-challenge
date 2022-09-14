@@ -29,5 +29,13 @@ describe("Game", () => {
         game.addRoll(4);
         expect(game.score()).toEqual(4);    
     });
+
+    it("can score in a game with a single roll", () => {
+      const game = new Game();
+      game.addRoll(4);
+      game.addRoll(4);
+      game.addRoll(4);
+      expect(game.score()).toEqual(12);    
+    });
   });
 });

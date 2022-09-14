@@ -56,6 +56,8 @@ Assistance from a Bowling Examplar video from the Makers course.
 - In the examplar, the logic for a score method within the game was written before all the complete tests written. Some TDD can be written in reverse, logic first then test that logic but I first wrote a simple score method in the game.js file to return 4, to get the test expectation passing for a single roll. 
 - Will write the rest of the logic with next test where the logic requires two rolls returning a score, so the return result from the score method can no longer be hard-coded.
 
+- Test for multiple rolls for a score added. Test failing. Added for loop/logic to iterate through and add each roll to the score, then return the score. Test for multiple rolls passing.
+
 Bowling Challenge
 =================
 

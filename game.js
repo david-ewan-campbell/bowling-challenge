@@ -13,7 +13,12 @@ class Game {
   }
 
   score() {
-    return 4;
+    let score = 0;
+    for (let i = 0; i < this.frames.length; i++) {
+      const frame = this.frames[i];
+      score += frame.score();
+    }
+    return score;
   }
 
   get #currentFrame() {
