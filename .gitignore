@@ -4,10 +4,4 @@
 
 /reports/*
 
-/coverage
-/coverage/lcov-report
-/coverage/clover.xml
-/coverage/coverage-final.json
-/coverage/lcov-report/frame.js.html
-/coverage/lcov-report/game.js.html
-/coverage/lcov-report/index.html
+.coverage*

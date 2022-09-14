@@ -6,7 +6,7 @@ class Game {
   }
 
   addRoll(pins) {
-    if (this.#currentFrame.rolls.length == 2 || this.#currentFrame.strike()) {
+    if (this.currentFrameComplete()) {
       this.frames.push(new Frame());
     }
     this.#currentFrame.addRoll(pins);
@@ -19,6 +19,12 @@ class Game {
       score += frame.score();
     }
     return score;
+  }
+
+  currentFrameComplete() {
+    return (
+      this.#currentFrame.rolls.length == 2 || this.#currentFrame.strike()
+    );
   }
 
   get #currentFrame() {

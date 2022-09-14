@@ -58,6 +58,8 @@ Assistance from a Bowling Examplar video from the Makers course.
 
 - Test for multiple rolls for a score added. Test failing. Added for loop/logic to iterate through and add each roll to the score, then return the score. Test for multiple rolls passing.
 
+- Refactored code to so a current frame completed is in its own method - seperation of concerns.
+
 Bowling Challenge
 =================
 
