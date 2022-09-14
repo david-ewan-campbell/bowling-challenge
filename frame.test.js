@@ -66,4 +66,25 @@ describe("Frame", () => {
       expect(frame.spare()).toEqual(false);
     });
   });
+
+  describe(".complete", () => {
+    it("returns true if two rolls have been scored & frame is complete", () => {
+      const frame = new Frame();
+      frame.addRoll(4);
+      frame.addRoll(4);
+      expect(frame.complete()).toEqual(true);
+    });
+
+    it("returns true if a strike has been scored", () => {
+      const frame = new Frame();
+      frame.addRoll(10);
+      expect(frame.complete()).toEqual(true);
+    });
+
+    it("returns false if the frame is incomplete", () => {
+      const frame = new Frame();
+      frame.addRoll(1);
+      expect(frame.complete()).toEqual(false);
+    });
+  });
 });

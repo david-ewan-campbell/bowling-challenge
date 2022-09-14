@@ -60,6 +60,9 @@ Assistance from a Bowling Examplar video from the Makers course.
 
 - Refactored code to so a current frame completed is in its own method - seperation of concerns.
 
+- Initially added a method to check if a current frame was completed. Moved this to the frame test file/frame class instead as more appropriate to keep that concern within the frame files. Added multiple tests to frame.test.js file to check for completed frames with 2 rolls/a strike or an incomplete frame then moved method that checks for outcome of completed frames. Tests passing.
+
+
 Bowling Challenge
 =================
 

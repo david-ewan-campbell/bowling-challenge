@@ -21,6 +21,10 @@ class Frame {
     if (this.strike()) return false;
     return this.rolls[0] + this.rolls[1] === 10;
   }
+
+  complete() {
+    return this.rolls.length === 2 || this.strike();
+  }
 }
 
 module.exports = Frame;
