@@ -6,10 +6,14 @@ class Game {
   }
 
   addRoll(pins) {
-    if (this.#currentFrame.rolls.length == 2) {
+    if (this.#currentFrame.rolls.length == 2 || this.#currentFrame.strike()) {
       this.frames.push(new Frame());
     }
     this.#currentFrame.addRoll(pins);
+  }
+
+  score() {
+    return 4;
   }
 
   get #currentFrame() {

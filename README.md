@@ -46,8 +46,15 @@ Assistance from a Bowling Examplar video from the Makers course.
 - Added test coverage with npx jest --coverage to get more visibility on what is happening with each test
 
 - Added method to get current frame so code is not repeating itself (DRY)
+- Method is not required outside of the game.js file so made a Private Method by used of a hash = #currentFrame
 
 - Refactored code to add useful Javascript 'get' method used to call #currentFrame and to focuse on keeping code DRY
+
+- Added option that a currentFrame ends & a new frame is created, if 2 frames have been played OR || a strike is played
+- Investigating ways for a gitignore file to ignore coverage reports
+
+- In the examplar, the logic for a score method within the game was written before all the complete tests written. Some TDD can be written in reverse, logic first then test that logic but I first wrote a simple score method in the game.js file to return 4, to get the test expectation passing for a single roll. 
+- Will write the rest of the logic with next test where the logic requires two rolls returning a score, so the return result from the score method can no longer be hard-coded.
 
 Bowling Challenge
 =================
