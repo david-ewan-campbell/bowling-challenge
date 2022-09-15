@@ -38,4 +38,12 @@ describe("Game", () => {
       expect(game.score()).toEqual(12);    
     });
   });
+  
+    it("can roll a gutter game", () => {
+        const game = new Game();
+        for (let i = 0; i < 20; i++) {
+          game.addRoll(1);
+        }
+    expect(game.score()).toEqual(20);
+  });
 });

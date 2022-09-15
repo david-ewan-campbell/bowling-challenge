@@ -28,6 +28,13 @@ describe("Frame", () => {
       frame.addRoll(4);
       expect(frame.score()).toEqual(9);
     });
+
+    it("can score a spare", () => {
+      const frame = new Frame();
+      frame.addRoll(6);
+      frame.addRoll(4);
+      expect(frame.score(3)).toEqual(13);
+    });
   });
 
   describe("strike", () => {

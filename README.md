@@ -62,6 +62,7 @@ Assistance from a Bowling Examplar video from the Makers course.
 
 - Initially added a method to check if a current frame was completed. Moved this to the frame test file/frame class instead as more appropriate to keep that concern within the frame files. Added multiple tests to frame.test.js file to check for completed frames with 2 rolls/a strike or an incomplete frame then moved method that checks for outcome of completed frames. Tests passing.
 
+- Added test to check for spares in a frame, when 2 rolls give you a 10 and you have a spare roll, a spare needs to be able to be added to the score. Test added to frame.test.js within the describe('.score') block and passes an extra value as a parameter to check a score can be added. Test fails as expecting 13 but receing 10 from the current logic. Added logic to pass a 'nextRoll' as a parameter & 'if' logic added to add a spare if it is rolled. Test passing.
 
 Bowling Challenge
 =================
