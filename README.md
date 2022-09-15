@@ -64,6 +64,9 @@ Assistance from a Bowling Examplar video from the Makers course.
 
 - Added test to check for spares in a frame, when 2 rolls give you a 10 and you have a spare roll, a spare needs to be able to be added to the score. Test added to frame.test.js within the describe('.score') block and passes an extra value as a parameter to check a score can be added. Test fails as expecting 13 but receing 10 from the current logic. Added logic to pass a 'nextRoll' as a parameter & 'if' logic added to add a spare if it is rolled. Test passing.
 
+- Adding test to check that a game can be scored with a spare roll. Expectation returns NaN - score method not returning a required number. This proved a very useful exercise in following a route through an error and how to console.log to gain visibility on where the problem lay. Also discovered a new method for narrowing down the focus to a particular test. Console logging from the score method threw up a problem with the logic not adding a spare score if that case arose in the scoring. Adding it.only to a particular test (in this case testing for a spare score) meant all other tests were ignored and the source of the issue narrowed down to seeing the result of the outcome of that particular test. 
+- Added if/else logic to the score method to add a spare to a score if that case arose. - tests passing.
+
 Bowling Challenge
 =================
 

@@ -30,13 +30,27 @@ describe("Game", () => {
         expect(game.score()).toEqual(4);    
     });
 
-    it("can score in a game with a single roll", () => {
+    it("can score in a game with two rolls", () => {
       const game = new Game();
       game.addRoll(4);
       game.addRoll(4);
-      game.addRoll(4);
-      expect(game.score()).toEqual(12);    
+      expect(game.score()).toEqual(8);    
     });
+
+  it("can score in a game with multiple rolls", () => {
+    const game = new Game();
+    game.addRoll(4);
+    game.addRoll(4);
+    game.addRoll(4);
+    expect(game.score()).toEqual(12);    
+  });
+
+  it.only("can score in a game with a spare", () => {
+    const game = new Game();
+    game.addRoll(4);
+    game.addRoll(6);
+    game.addRoll(4);
+    expect(game.score()).toEqual(18);    
   });
   
     it("can roll a gutter game", () => {
@@ -45,5 +59,6 @@ describe("Game", () => {
           game.addRoll(1);
         }
     expect(game.score()).toEqual(20);
+    });
   });
 });
