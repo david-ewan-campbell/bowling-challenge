@@ -17,14 +17,10 @@ class Game {
     for (let i = 0; i < this.frames.length; i++) {
       const frame = this.frames[i];
       const nextFrame = this.frames[i + 1];
-      if (nextFrame) {
-        score += frame.score(nextFrame.rolls[0]);
-      } else {
-        score += frame.score();
+      score += frame.score(nextFrame?.rolls[0]);
       }
-    console.log("score:", score);
-    console.log("frame.score():", frame.score());
-    }
+    // console.log("score:", score);
+    // console.log("frame.score():", frame.score());
     return score;
   }
 

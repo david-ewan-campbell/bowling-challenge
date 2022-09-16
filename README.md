@@ -67,6 +67,10 @@ Assistance from a Bowling Examplar video from the Makers course.
 - Adding test to check that a game can be scored with a spare roll. Expectation returns NaN - score method not returning a required number. This proved a very useful exercise in following a route through an error and how to console.log to gain visibility on where the problem lay. Also discovered a new method for narrowing down the focus to a particular test. Console logging from the score method threw up a problem with the logic not adding a spare score if that case arose in the scoring. Adding it.only to a particular test (in this case testing for a spare score) meant all other tests were ignored and the source of the issue narrowed down to seeing the result of the outcome of that particular test. 
 - Added if/else logic to the score method to add a spare to a score if that case arose. - tests passing.
 
+- Refactored score method in both game and frame classes to use 'safe?' method.
+Description from Designcise website - 'The safe navigation operator is simply another name for the optional chaining operator (?.), which was introduced in ES11. It evaluates an expression from left-to-right; when/if the left operand evaluates to a nullish value, it stops the execution of the entire chain and short-circuit evaluates the expression to undefined. This helps avoid having the need to add sequential explicit null-safe checks.'
+- Did this to stop a next frame being added automatically & throwing an error. If there is no roll it will return undefined & not add one but if there is another roll (which it checks for using the safe method on 'nextFrame?') then I will add that roll if there is a score to be added.
+
 Bowling Challenge
 =================
 

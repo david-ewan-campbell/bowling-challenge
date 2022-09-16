@@ -9,7 +9,7 @@ class Frame {
     this.rolls.push(pins);
   }
 
-  score(nextRoll) {
+  score(nextRoll = 0) {
     if (this.spare()) {
       return sum(this.rolls) + nextRoll;
     }
